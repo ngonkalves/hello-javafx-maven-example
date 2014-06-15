@@ -16,6 +16,16 @@ are all optional additions and included just to get you started. You can delete 
 as needed. 
 
 
+Fix JavaFX Classpath in JRE 7 or lower
+=========================================
+Source: http://zenjava.com/javafx/maven/
+Copy jfxrt.jar from /usr/lib/jvm/java-7-oracle/jre/lib/jfxrt.jar to /usr/lib/jvm/java-7-oracle/jre/lib/ext/jfxrt.jar.
+
+Or simply run:
+
+sudo mvn com.zenjava:javafx-maven-plugin:2.0:fix-classpath
+
+
 Setting up
 =========================================
 
